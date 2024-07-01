@@ -100,6 +100,17 @@ textarea:focus {
 	border: 1px solid #646cff;
 }
 
+.search-input {
+	color: white; /* Text color */
+	background-color: #1a1a1a; /* Background color to match existing theme */
+	border: 1px solid #ffffff; /* Border color */
+  }
+  
+  .search-input::placeholder {
+	color: rgba(255, 255, 255, 0.6); /* Placeholder color */
+  }
+  
+
 @media (prefers-color-scheme: light) {
 	:root {
 		color: #213547;
